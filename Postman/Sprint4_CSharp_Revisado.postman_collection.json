@@ -1,0 +1,42 @@
+{
+  "info": {
+    "name": "Sprint4_CSharp_Revisado",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar Produtos",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/products"
+      }
+    },
+    {
+      "name": "Buscar (LINQ)",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/linq/search?term=mouse"
+      }
+    },
+    {
+      "name": "Top Expensive (LINQ)",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/linq/top-expensive?take=3"
+      }
+    },
+    {
+      "name": "Pagina\u00e7\u00e3o (LINQ)",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/linq/paged?page=1&pageSize=2"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5000"
+    }
+  ]
+}
