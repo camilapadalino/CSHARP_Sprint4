@@ -1,10 +1,10 @@
 # 🧩 Sprint4.CSharp.WebApi (ASP.NET Core + EF Core + Swagger )
 
 ## Alunos
--  Camila do Prado Padalino – ** RM98316 **  
--Felipe  Cavalcante Bressane – ** RM97688 **  
--Gabriel  Teixeira Machado – ** RM551570 **  
--  Guilherme Brazioli – ** RM98237 **
+-  Camila do Prado Padalino – **RM98316**  
+- Felipe  Cavalcante Bressane – **RM97688**  
+- Gabriel  Teixeira Machado – **RM551570**  
+-  Guilherme Brazioli – **RM98237**
 
 ## Entrega da ** Sprint 4 – C# ** com os itens do anunciado
 -  ** ASP.NET Core Web API + Entity Framework Core com CRUD completo **  
